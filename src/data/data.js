@@ -43,4 +43,23 @@ export const highlights = [
     }
 ]
 
+export const testimonials = [
+    {
+        rating: "5/5",
+        name: "John Doe",
+    },
+    {
+        rating: "4.8/5",
+        name: "Jane Doe",
+    },
+    {
+        rating: "4.9/5",
+        name: "Joe Doe",
+    },
+    {
+        rating: "5/5",
+        name: "Julie Doe",
+    }
+]
+
 export default links;

@@ -5,7 +5,6 @@
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(2, 1fr);
-    padding: 0 2rem;
 }
 
 .hero-section > section {
@@ -43,6 +42,7 @@
     border-radius: 1rem;
     width: 23.5625rem;
     height: 30.4375rem;
+    margin: 0 2rem;
 }
 
 @media (max-width: 1000px) {
@@ -62,5 +62,6 @@
         position: relative;
         max-width: 20rem;
         top: 0;
+        margin: 0;
     }
 }

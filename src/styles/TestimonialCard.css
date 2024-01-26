@@ -1,0 +1,37 @@
+.testimonial-card {
+    background-color: #FFFFFF;
+    width: 12.375rem;
+    height: 9.87688rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.testimonial-container {
+    display: grid;
+    grid-template-rows: (3, auto);
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0 1rem;
+}
+
+.testimonial-rating {
+    color: #333333;
+}
+
+.testimonial-content {
+    margin: auto auto auto 0;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.testimonial-img {
+    width: 2.48744rem;
+    height: 2.42375rem;
+}

@@ -33,6 +33,10 @@
 
 @media (max-width: 1000px) {
 
+    #highlights {
+        margin-bottom: 2rem;
+    }
+
     #highlights-header {
         flex-direction: column;
         text-align: center;
