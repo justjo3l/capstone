@@ -60,7 +60,7 @@ footer li {
 
 @media (max-width: 1000px) {
     footer {
-        grid-template-rows: repeat(4, auto);
+        grid-auto-flow: row;
         grid-template-columns: 1fr;
         gap: 2rem;
         padding: 10px 0;
