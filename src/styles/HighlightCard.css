@@ -1,0 +1,38 @@
+.highlight-card {
+    height: 100%;
+    width: 100%;
+    max-width: 16.5625rem;
+    background-color: #EDEFEE;
+    display: grid;
+    grid-template-rows: 12.5rem 17.125rem;
+    grid-template-columns: 1fr;
+}
+
+.highlight-img {
+    width: 16.5625rem;
+    height: 12.5rem;
+    border-radius: 0.3125rem;
+}
+
+.price {
+    color: #EE9972;
+    text-align: right;
+}
+
+.description {
+    width: 13.6875rem;
+    height: 8.6875rem;
+}
+
+.highlight-text-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.highlight-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1rem;
+}

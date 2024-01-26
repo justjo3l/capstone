@@ -60,6 +60,7 @@
 
     #hero-image {
         position: relative;
+        max-width: 20rem;
         top: 0;
     }
 }
