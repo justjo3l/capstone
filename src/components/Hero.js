@@ -25,7 +25,7 @@ function Hero() {
           <button className='ll-button' onClick={onClick}>Reserve a Table</button>
         </section>
         <div id='hero-image-container'>
-          <img src={heroImage} id='hero-image' />
+          <img src={heroImage} id='hero-image' alt="A display of Little Lemon's Food"/>
         </div>
       </section>
   );

@@ -7,7 +7,7 @@ function HighlightCard(props) {
   return (
     <section className='highlight-card'>
       <div>
-        <img className='highlight-img' src={highlight.img} />
+        <img className='highlight-img' src={highlight.img} alt={highlight.name}/>
       </div>
       <section className="highlight-content">
         <section className='highlight-text-header'>

@@ -24,7 +24,7 @@
     margin: auto;
 }
 
-#header-nav-list > li > a {
+#header-nav-list > li > button {
     color: black;
     font-family: Karla;
     font-size: 1rem;

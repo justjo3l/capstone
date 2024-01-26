@@ -2,4 +2,7 @@
     text-decoration: none;
     color: inherit;
     cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font: inherit;
 }

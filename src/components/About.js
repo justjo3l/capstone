@@ -17,8 +17,8 @@ function About() {
           </section>
         </section>
         <div>
-          <img className='about-img' id='img1' src={image1}/>
-          <img className='about-img' id='img2' src={image2}/>
+          <img className='about-img' id='img1' src={image1} alt='Owners of Little Lemon'/>
+          <img className='about-img' id='img2' src={image2} alt='Owners of Little Lemon'/>
         </div>
       </section>
     );
