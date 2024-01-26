@@ -1,7 +1,7 @@
-function Header() {
+function Header({ children }) {
     return (
         <header>
-
+            {children}
         </header>
     );
 }

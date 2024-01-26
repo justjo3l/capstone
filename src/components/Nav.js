@@ -1,28 +1,15 @@
 import logo from '../assets/Logo.svg';
 
+import '../styles/Nav.css';
+
+import LinkList from './LinkList';
+
 function Nav() {
     return (
-        <nav>
-          <ul>
-            <img src={logo} alt="Little Lemon Logo"/>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/">About</a>
-            </li>
-            <li>
-              <a href="/">Menu</a>
-            </li>
-            <li>
-              <a href="/">Reservations</a>
-            </li>
-            <li>
-              <a href="/">Order Online</a>
-            </li>
-            <li>
-              <a href="/">Login</a>
-            </li>
+        <nav id="header-nav">
+          <ul id="header-nav-list">
+            <img src={logo} alt="Little Lemon Logo" id="header-logo" />
+            <LinkList />
           </ul>
         </nav>
     );

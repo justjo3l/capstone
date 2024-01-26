@@ -1,0 +1,39 @@
+#header-nav {
+    background-color: #FFFFFF;
+    width: 100%;
+}
+
+#header-logo {
+    width: 14.51331rem;
+    height: 3.9375rem;
+}
+
+#header-nav-list {
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+    gap: 2rem;
+}
+
+@media (max-width: 1000px) {
+    #header-nav-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, auto);
+        gap: 1rem;
+    }
+}
+
+#header-nav-list > li {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+}
+
+#header-nav-list > li > a {
+    color: black;
+    font-family: Karla;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

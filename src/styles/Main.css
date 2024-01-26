@@ -1,0 +1,13 @@
+main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 28.75rem 52.375rem 29.8125rem 31.6875rem;
+}
+
+@media (max-width: 1000px) {
+    #root {
+        grid-template-rows: repeat(4, auto);
+        grid-template-columns: 1fr;
+    }
+}

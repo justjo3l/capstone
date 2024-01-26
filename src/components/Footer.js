@@ -1,41 +1,28 @@
 import logo from '../assets/Logo.svg';
 
+import LinkList from './LinkList';
+
+import '../styles/Footer.css';
+
 function Footer() {
     return (
         <footer>
-          <div>
-            <img src={logo} alt="Little Lemon Logo" />
+          <div id="footer-logo-container">
+            <img src={logo} alt="Little Lemon Logo" id="footer-logo" />
           </div>
           <section>
-            <header>
-              Doormat Navigation
-            </header>
-            <ul>
-              <li>
-                <a href="/">Home</a>
-              </li>
-              <li>
-                <a href="/">About</a>
-              </li>
-              <li>
-                <a href="/">Menu</a>
-              </li>
-              <li>
-                <a href="/">Reservations</a>
-              </li>
-              <li>
-                <a href="/">Order Online</a>
-              </li>
-              <li>
-                <a href="/">Login</a>
-              </li>
+            <ul className='footer-nav-list'>
+              <header className='list-header'>
+                Links
+              </header>
+              <LinkList />
             </ul>
           </section>
-          <section>
-            <header>
-              Contact
-            </header>
-            <ul>
+          <section >
+            <ul className='footer-info-list'>
+              <header className='list-header'>
+                Contact
+              </header>
               <li>
                 Address
               </li>
@@ -48,10 +35,10 @@ function Footer() {
             </ul>
           </section>
           <section>
-            <header>
-              Social Media Links
-            </header>
-            <ul>
+            <ul className='footer-info-list'>
+              <header className='list-header'>
+                Social Media Links
+              </header>
               <li>
                 Address
               </li>

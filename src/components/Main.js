@@ -1,7 +1,9 @@
-function Main() {
+import '../styles/Main.css';
+
+function Main({ children }) {
     return (
         <main>
-
+            {children}
         </main>
     );
 }
