@@ -1,0 +1,11 @@
+#reserve-form {
+    display: grid;
+    max-width: 200px;
+    gap: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.time-table {
+    list-style-type: none;
+}

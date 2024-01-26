@@ -16,10 +16,12 @@ function Home() {
         <Nav />
       </Header>
       <Main>
-        <Hero />
-        <Highlights />
-        <Testimonials />
-        <About />
+        <section className='home-section'>
+          <Hero />
+          <Highlights />
+          <Testimonials />
+          <About />
+        </section>
       </Main>
       <Footer />
     </>

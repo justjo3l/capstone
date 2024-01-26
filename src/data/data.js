@@ -23,7 +23,7 @@ const links = [
         label: 'Login',
         url: '/login',
     }
-]
+];
 
 export const highlights = [
     {
@@ -41,7 +41,7 @@ export const highlights = [
         name: 'Lemon Dessert',
         price: '8.00',
     }
-]
+];
 
 export const testimonials = [
     {
@@ -60,6 +60,18 @@ export const testimonials = [
         rating: "5/5",
         name: "Julie Doe",
     }
-]
+];
+
+export const availableOccasions = [
+    {
+        occasion: 'Birthday',
+    },
+    {
+        occasion: 'Anniversary',
+    },
+    {
+        occasion: 'Other',
+    }
+];
 
 export default links;
