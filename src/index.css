@@ -110,3 +110,11 @@ code {
   font-weight: 700;
   line-height: normal;
 }
+
+.ll-lead-text {
+  font-family: Karla;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
