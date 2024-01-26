@@ -8,6 +8,10 @@
     height: 3.9375rem;
 }
 
+#header-logo:hover {
+    cursor: pointer;
+}
+
 #header-nav-list {
     display: grid;
     grid-template-columns: repeat(7, auto);

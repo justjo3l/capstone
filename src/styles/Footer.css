@@ -14,6 +14,10 @@ footer {
     margin: 0 auto;
 }
 
+#footer-logo:hover {
+    cursor: pointer;
+}
+
 .list-header {
     color: #F4CE14;
     max-width: 11.5rem;

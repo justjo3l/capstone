@@ -63,6 +63,10 @@ code {
   line-height: normal;
 }
 
+.ll-button:hover {
+  cursor: pointer;
+}
+
 .ll-display-title {
   font-family: "Markazi Text";
   font-size: 4rem;
@@ -109,6 +113,10 @@ code {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+}
+
+.ll-a-button-text:hover {
+  cursor: pointer;
 }
 
 .ll-lead-text {

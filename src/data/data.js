@@ -13,7 +13,7 @@ const links = [
     },
     {
         label: 'Reservations',
-        url: '/reservations',
+        url: '/reserve-a-table',
     },
     {
         label: 'Order Online',
