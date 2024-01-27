@@ -14,7 +14,7 @@ function LinkList() {
         links.map((link) => {
           return (
             <li key={link.label}>
-              <button onClick={() => {navigate(link.url);}} className='link'>{link.label}</button>
+              <button aria-label="On Click" onClick={() => {navigate(link.url);}} className='link'>{link.label}</button>
             </li>
           )
         })

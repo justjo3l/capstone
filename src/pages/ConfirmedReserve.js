@@ -21,7 +21,7 @@ function ConfirmedReserve() {
       <Main>
         <div id='confirmation-text-container'>
           <h1 id='confirmation-text'>Your reservation has been confirmed!</h1>
-          <button className='ll-button' onClick={() => navigate('/')}>Home</button>
+          <button className='ll-button' aria-label="On Click" onClick={() => navigate('/')}>Home</button>
         </div>
       </Main>
       <Footer />

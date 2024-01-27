@@ -22,7 +22,7 @@ function Hero() {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-          <button className='ll-button' onClick={onClick}>Reserve a Table</button>
+          <button className='ll-button' aria-label="On Click" onClick={onClick}>Reserve a Table</button>
         </section>
         <div id='hero-image-container'>
           <img src={heroImage} id='hero-image' alt="A display of Little Lemon's Food"/>

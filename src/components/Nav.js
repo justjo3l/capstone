@@ -17,7 +17,7 @@ function Nav() {
   return (
     <nav id="header-nav">
       <ul id="header-nav-list">
-        <img src={logo} alt="Little Lemon Logo" id="header-logo" onClick={onClick}/>
+        <img src={logo} alt="Little Lemon Logo" id="header-logo" aria-label="On Click" onClick={onClick}/>
         <LinkList />
       </ul>
     </nav>

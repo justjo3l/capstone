@@ -9,3 +9,14 @@
 .time-table {
     list-style-type: none;
 }
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.error-state {
+    border: red 2px solid;
+    border-radius: 2px;
+}

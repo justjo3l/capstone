@@ -17,7 +17,7 @@ function Footer() {
   return (
     <footer>
       <div id="footer-logo-container">
-        <img src={logo} alt="Little Lemon Logo" id="footer-logo" onClick={onClick} />
+        <img src={logo} alt="Little Lemon Logo" id="footer-logo" aria-label="On Click" onClick={onClick} />
       </div>
       <section>
         <ul className='footer-nav-list'>
